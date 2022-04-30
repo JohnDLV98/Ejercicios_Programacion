@@ -32,7 +32,7 @@ public class Main {
         System.out.println();
         System.out.print(" [");
         for(int k=0;k<n; k++){
-            System.out.print(" '"+ arr[k] + "' ");
+            System.out.print(" '"+ arrinv[k] + "' ");
         } 
 
         System.out.println("] ");
