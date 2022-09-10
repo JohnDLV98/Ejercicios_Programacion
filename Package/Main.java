@@ -18,15 +18,11 @@ public class Main {
                 case 2:
                     
                         System.out.println();
-                        System.out.println("Ingrese el número 0 para salir");
-                        System.out.println("Ingrese Número entero mayor a 0 y menor que 101 : ");
+                        
+                        System.out.println("Ingrese Número entero mayor a 0 y menor que 101 : (1 <= n <= 100)");
                         int n1 = entrada.nextInt();
                         System.out.println();
-
-                        if (n1 == 0) {
-                            System.out.println("Saliendo");
-                            break;
-                        }
+                        
                         if (n1 < 1 || n1 > 100) {
                             System.out.println("El numero: " + n1 + ", está fuera del rango");
                             System.out.println("Vuelva a empezar");
